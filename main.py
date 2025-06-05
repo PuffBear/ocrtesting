@@ -4,3 +4,4 @@
 image_list = convert_pdf_to_images("fir2017.pdf")
 print(image_list)
 """
+image_list = ['data/intermediate/fir2017/page_001.png', 'data/intermediate/fir2017/page_002.png', 'data/intermediate/fir2017/page_003.png', 'data/intermediate/fir2017/page_004.png']
