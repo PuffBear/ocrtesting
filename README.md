@@ -50,3 +50,7 @@ project_root/
 ├── pretrained/
 │   └── platter_models/            # Pretrained weights for PLATTER (HTR)
 └── README.md                       # Project setup + usage instructions
+
+
+1st step: file_utils.py -> converting pdf to images.
+2nd step: layout_detection.py -> 
