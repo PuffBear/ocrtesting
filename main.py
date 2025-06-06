@@ -2,7 +2,7 @@
 
 import os
 from utils.file_utils import convert_pdf_to_images
-from modules.ocr_paddle import init_paddle_ocr, run_ocr_on_image
+from modules.ocr_tesseract import init_paddle_ocr, run_ocr_on_image
 from utils.json_utils import save_json
 
 PDF_FILE = "input/fir2017.pdf"  # <== your test file path
