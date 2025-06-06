@@ -14,7 +14,7 @@ import re
 custom_config = r'-l eng+hin --oem 1 --psm 6'
 
 # Load image
-img_path = "data/intermediate/fir2017/page_004.png"
+img_path = "/Users/Agriya/Desktop/ocrtesting/data/intermediate/fir2020/page002.png"
 img = cv2.imread(img_path)
 
 # Convert to RGB
@@ -29,7 +29,7 @@ match = re.search(r'page_(\d+)', img_path)
 page_number = match.group(1) if match else "unknown"
 
 # Ensure output directory exists
-output_dir = "output"
+output_dir = "output/2020"
 os.makedirs(output_dir, exist_ok=True)
 
 # Save to file
