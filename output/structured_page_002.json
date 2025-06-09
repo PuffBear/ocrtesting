@@ -1,0 +1,32 @@
+[
+  [
+    "S.No. (#.4.) Name (नाम) Alias (उपनाम) Relative's Name (रिश्तेदार Present Address(@aAtel पता)\nका नाम)\n1 RAMFAL 1. YAMUNANAGAR,SVB\nPANCHKULA,STATE VIGILANCE\nBUREAU,HARYANA, INDIA",
+    "S.No. (क्र.सं.)",
+    "Name (नाम)",
+    "Alias (उपनाम)",
+    "Relative's Name (रिश्तेदार\nका नाम)",
+    "Present Address(@aAlel पता)"
+  ],
+  [
+    "1",
+    "RAMFAL",
+    "जा",
+    "गाए",
+    "1. YAMUNANAGAR,SVB\nPANCHKULA,STATE VIGILANCE\nBUREAU,HARYANA, INDIA"
+  ],
+  [
+    "S.No. (क्र.सं) Propertty Category (सम्पत्ति Property Type (सम्पत्ति के Description Value(In Rs/-) (मूल्य\nविवरण' में\n\nश्रेणी) प्रकार) ( ) (रु में))\n\n1 COIN AND CURRENCY INDIAN RUPEE 1200 RUPEES 1,200.00",
+    "S.No. (क्र.सं.)",
+    "Propertty Category (सम्पत्ति\nश्रेणी)",
+    "Property Type (सम्पत्ति के\nप्रकार)",
+    "Description\n(विवरण)",
+    "Value(In Rs/-) (मूल्य\n(रु में)"
+  ],
+  [
+    "1",
+    "COIN AND CURRENCY",
+    "INDIAN RUPEE",
+    "1200 RUPEES",
+    "1,200.00"
+  ]
+]
