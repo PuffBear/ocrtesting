@@ -1,3 +1,5 @@
+# use this file to extract content from tables.
+
 import cv2
 import pytesseract
 import json
