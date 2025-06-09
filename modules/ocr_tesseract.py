@@ -1,4 +1,5 @@
 # ocr_simple.py
+# use this script to extract multilingual text.
 
 import pytesseract
 from PIL import Image
