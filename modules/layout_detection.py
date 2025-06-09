@@ -1,3 +1,5 @@
+# need to finalise this script for layout detection for structured formatting.
+
 import layoutparser as lp
 import cv2
 from typing import List, Dict
