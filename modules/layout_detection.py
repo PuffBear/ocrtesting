@@ -31,8 +31,19 @@ def classify_region(img, x, y, w, h):
     config = r'-l eng+hin --psm 6'
     text = pytesseract.image_to_string(roi, config=config).strip()
 
+    # Heuristic for text density
+    text_density = len(text) / (w * h) if w * h != 0 else 0
+
+    # Heuristic for handwriting detection: low OCR accuracy, medium-sized region
+    gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
+    edges = cv2.Canny(gray, 100, 200)
+    num_edges = cv2.countNonZero(edges)
+    edge_density = num_edges / (w * h) if w * h != 0 else 0
+
     # Heuristics
-    if w > 300 and h > 100:
+    if text_density < 0.0005 and edge_density > 0.05 and 50 < h < 300:
+        region_type = "handwriting"
+    elif w > 300 and h > 100:
         region_type = "table" if len(text.split()) < (w * h) // 1000 else "text_block"
     elif h < 50:
         region_type = "heading"
@@ -40,7 +51,7 @@ def classify_region(img, x, y, w, h):
         region_type = "text_block"
     return region_type, text
 
-def detect_layout(image_path, output_json="output/layout_output.json"):
+def detect_layout(image_path, output_json="output/layout_output_2020_006.json"):
     os.makedirs(os.path.dirname(output_json), exist_ok=True)
     img_color = cv2.imread(image_path)
     bin_img = preprocess_image(image_path)
@@ -61,4 +72,4 @@ def detect_layout(image_path, output_json="output/layout_output.json"):
 
 # Example run
 if __name__ == "__main__":
-    detect_layout("/Users/Agriya/Desktop/ocrtesting/data/intermediate/fir2017/page_004.png")
+    detect_layout("/Users/Agriya/Desktop/ocrtesting/data/intermediate/fir2020/page_006.png")

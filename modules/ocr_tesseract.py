@@ -15,7 +15,7 @@ import re
 custom_config = r'-l eng+hin --oem 1 --psm 6'
 
 # Load image
-img_path = "/Users/Agriya/Desktop/ocrtesting/data/intermediate/fir2020/page_001.png"
+img_path = "/Users/Agriya/Desktop/ocrtesting/data/intermediate/fir2020/page_010.png"
 img = cv2.imread(img_path)
 
 # Convert to RGB
