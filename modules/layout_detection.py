@@ -51,7 +51,7 @@ def classify_region(img, x, y, w, h):
         region_type = "text_block"
     return region_type, text
 
-def detect_layout(image_path, output_json="output/layout_output_2020_006.json"):
+def detect_layout(image_path, output_json="output/layout_output_2020_011.json"):
     os.makedirs(os.path.dirname(output_json), exist_ok=True)
     img_color = cv2.imread(image_path)
     bin_img = preprocess_image(image_path)
@@ -72,4 +72,4 @@ def detect_layout(image_path, output_json="output/layout_output_2020_006.json"):
 
 # Example run
 if __name__ == "__main__":
-    detect_layout("/Users/Agriya/Desktop/ocrtesting/data/intermediate/fir2020/page_006.png")
+    detect_layout("/Users/Agriya/Desktop/ocrtesting/data/intermediate/fir2020/page_011.png")
