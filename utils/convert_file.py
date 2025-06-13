@@ -4,7 +4,7 @@ import fitz  # PyMuPDF
 from PIL import Image
 import numpy as np
 
-def convert_pdf_to_images(input_path, dpi=300, output_folder="data/intermediate/fir2020/"):
+def convert_pdf_to_images(input_path, dpi=300, output_folder="data/intermediate/fir2021/"):
     import os
     from pdf2image import convert_from_path
 
