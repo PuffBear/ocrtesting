@@ -5,6 +5,7 @@ import pytesseract
 import json
 import numpy as np
 import os
+import glob
 
 def detect_table_grid(image_path):
     img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
@@ -71,8 +72,42 @@ def process_table_image(image_path, output_json="structured_table_output.json"):
     print(f"✅ Done. Saved to {output_json}")
     return table_data
 
+
+def process_multiple_table_images(image_pattern, output_json="structured_tables_output.json"):
+    """Run table extraction on multiple images and dump all results to one file.
+
+    Parameters
+    ----------
+    image_pattern : str
+        Glob pattern matching all images to process. All matched files are
+        sorted before processing.
+    output_json : str, optional
+        Path of the aggregated JSON file. Defaults to
+        ``structured_tables_output.json``.
+
+    Returns
+    -------
+    dict
+        Mapping of image file name to extracted table data.
+    """
+
+    matched = sorted(glob.glob(image_pattern))
+    all_results = {}
+
+    for img_path in matched:
+        page_name = os.path.basename(img_path)
+        boxes, _ = detect_table_grid(img_path)
+        all_results[page_name] = extract_text_from_boxes(img_path, boxes)
+
+    os.makedirs(os.path.dirname(output_json), exist_ok=True)
+    with open(output_json, "w", encoding="utf-8") as f:
+        json.dump(all_results, f, indent=2, ensure_ascii=False)
+
+    print(f"✅ Processed {len(matched)} files into {output_json}")
+    return all_results
+
 # Example run
 if __name__ == "__main__":
-    image_path = "/Users/Agriya/Desktop/ocrtesting/data/intermediate/fir2020/page_009.png"
-    output_json_path = "output/structured_page_009_2020.json"
-    structured = process_table_image(image_path, output_json_path)
+    pattern = "data/intermediate/fir2020/page_*.png"
+    output_json_path = "output/fir2020_tables.json"
+    process_multiple_table_images(pattern, output_json_path)
