@@ -73,6 +73,6 @@ def process_table_image(image_path, output_json="structured_table_output.json"):
 
 # Example run
 if __name__ == "__main__":
-    image_path = "/Users/Agriya/Desktop/ocrtesting/data/intermediate/fir2020/page_009.png"
-    output_json_path = "output/structured_page_009_2020.json"
+    image_path = "/Users/Agriya/Desktop/ocrtesting/data/intermediate/property/page_010.png"
+    output_json_path = "output/property_table_005.json"
     structured = process_table_image(image_path, output_json_path)

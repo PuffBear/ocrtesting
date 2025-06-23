@@ -1,0 +1,87 @@
+[
+  [
+    "निर्माण विवरण\nअधिभोगी का विवरण, जब संपत्ति किराए पर दी जाती है\nअधिभोगी 3\nके अधिभोगी प्र\nअधिभोग. निर्मित अधिभोगी अधिभोगी संरक्षक कासंबंध अधिभोगीका *\nक्रमांक मंजिल प्रकार क्षेत्र we का नाम का लिंग का नाम प्रकार मोबाइल नंबर र\n1 17 Self 0.00 No Shikhir 99XXXXX149\nOccupied Sq.Ft Rebate Gupta\n2 2F Self 0.00 No Shikhir 99XXXXX149\nOccupied Sq.Ft Rebate Gupta\n3 Ground Self 0.00 No Shikhir 99XXXXX149\nFloor Occupied Sq.Ft Rebate Gupta\nMe >\nसंपत्ति विवरण और संपत्ति की फोटो सही है? * OF ० नहीं\nपीआईडी से जुड़ा मोबाइल नंबर: YOXXXXX149\nमोबाइल नंबर सही है? * ०हाँ ० नहीं\nस्वामित्व प्रकार: Individual\nआधार/पीपीपी विवरण दर्ज करें शेयर विवरण दर्ज करें\nक्रमांक मालिक का नाम लिंग पिता/पति का नाम रिश्ता मोबाइल संख्या प्रमाणित स्थिति भाग\n1 Shikhir Gupta Male Jai Kumar Gupta Father 99XXXXX149 Pending\nमालिक का विवरण सही है? * ०हाँ ० नहीं\nसंपत्ति और अग्नि कर बकाया"
+  ],
+  [
+    "निर्माण विवरण\nअधिभोगी का विवरण, जब संपत्ति किराए पर दी जाती है\nअधिभोगी 3\nके अधिभोगी प्र\nअधिभोग. निर्मित अधिभोगी अधिभोगी संरक्षक eddy अधिभोगीका sf\nक्रमांक मंजिल प्रकार क्षेत्र छूट का नाम का लिंग का नाम प्रकार मोबाइल नंबर रु\n1 1F Self 0.00 No Shikhir 99XXXXX149\nOccupied Sq.Ft Rebate Gupta\n2 2F Self 0.00 No Shikhir 99XXXXX149\nOccupied Sq.Ft Rebate Gupta\n3 Ground Self 0.00 No Shikhir 99XXXXX149\nFloor Occupied Sq.Ft Rebate Gupta",
+    "निर्माण विवरण"
+  ],
+  [
+    "क्रमांक",
+    "मंजिल",
+    "अधिभोग\nप्रकार",
+    "निर्मित\nक्षेत्र",
+    "ge",
+    "अधिभोगी का विवरण, जब संपत्ति किराए पर दी जाती है"
+  ],
+  [
+    "अधिभोगी\nका नाम",
+    "अधिभोगी\nका लिंग",
+    "अधिभोगी\nके\nसंरक्षक\nका नाम",
+    "अधिभोगी\nका संबंध\nप्रकार",
+    "अधिभोगी का\nमोबाइल नंबर"
+  ],
+  [
+    "1",
+    "1F",
+    "Self\nOccupied",
+    "0.00\nSq.Ft",
+    "No\nRebate",
+    "Shikhir\nGupta",
+    "a",
+    "a",
+    "a",
+    "9OXXXXX149"
+  ],
+  [
+    "2",
+    "2F",
+    "Self\nOccupied",
+    "0.00\nSq.Ft",
+    "No\nRebate",
+    "Shikhir\nGupta",
+    "a",
+    "a",
+    "a",
+    "9OXXXXX149"
+  ],
+  [
+    "3",
+    "Ground\nFloor",
+    "Self\nOccupied",
+    "0.00\nSq.Ft",
+    "No\nRebate",
+    "Shikhir\nGupta",
+    "a",
+    "a",
+    "a",
+    "9OXXXXX149"
+  ],
+  [
+    "पीआईडी से जुड़ा मोबाइल नंबर: YOXXXXX149\n* O@ ० नहीं"
+  ],
+  [
+    "स्वामित्व प्रकार: Individual\nआधार/पीपीपी विवरण दर्ज करें शेयर विवरण दर्ज करें\nक्रमांक मालिक का नाम लिंग पिता/पति का नाम रिश्ता मोबाइल संख्या प्रमाणित स्थिति भाग\n1 Shikhir Gupta Male Jai Kumar Gupta Father 99XXXXX149 Pending\nमालिक का विवरण सही है? * ०हाँ ० नहीं"
+  ],
+  [
+    "क्रमांक मालिक का नाम लिंग पिता/पति का नाम रिश्ता मोबाइल संख्या प्रमाणित स्थिति भाग\n1 Shikhir Gupta Male Jai Kumar Gupta Father 99XXXXX149 Pending",
+    "क्रमांक",
+    "मालिक का नाम",
+    "लिंग",
+    "पिता/पति का नाम",
+    "रिश्ता",
+    "मोबाइल संख्या",
+    "प्रमाणित स्थिति",
+    "भाग"
+  ],
+  [
+    "1",
+    "Shikhir Gupta",
+    "Male",
+    "Jai Kumar Gupta",
+    "Father",
+    "9OXXXXX149",
+    "Pending",
+    "a"
+  ]
+]

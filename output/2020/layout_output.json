@@ -1,0 +1,612 @@
+[
+  {
+    "type": "heading",
+    "bbox": [
+      1794,
+      111,
+      2288,
+      160
+    ],
+    "content": "Haryana Police (हरियाणा पुलिस)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1844,
+      215,
+      2283,
+      264
+    ],
+    "content": "LLE-I (एकीकृत जाँच फार्म-)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      175,
+      299,
+      1478,
+      347
+    ],
+    "content": "Attachment to item 7 of First Information Report (प्रथम सूचना रिपोर्ट के मद 7 संलग्नक):"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      175,
+      384,
+      1472,
+      422
+    ],
+    "content": "Physical features, deformities and other details of the suspect/accused: (If known / seen )"
+  },
+  {
+    "type": "text_block",
+    "bbox": [
+      175,
+      450,
+      1568,
+      501
+    ],
+    "content": "(संदिग्ध / अभियुक्त की शारीरिक विशेषताएँ, विकृतियाँ और अन्य विवरण: (यदि ज्ञात / देखा गया))"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      176,
+      541,
+      295,
+      573
+    ],
+    "content": "S.No."
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      527,
+      541,
+      774,
+      573
+    ],
+    "content": "Date / Year Of"
+  },
+  {
+    "type": "text_block",
+    "bbox": [
+      1079,
+      541,
+      1210,
+      615
+    ],
+    "content": "Height\n(cms)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      338,
+      545,
+      513,
+      591
+    ],
+    "content": "Sex (लिंग)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1235,
+      545,
+      1514,
+      591
+    ],
+    "content": "Complexion (रंग)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1583,
+      546,
+      2148,
+      591
+    ],
+    "content": "Identification Mark(s) (पहचान चिन्ह)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      801,
+      551,
+      1037,
+      591
+    ],
+    "content": "Build (बनावट)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      175,
+      582,
+      304,
+      628
+    ],
+    "content": "(क्र.सं.)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      527,
+      583,
+      812,
+      628
+    ],
+    "content": "Birth (जन्म तिथि"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1079,
+      625,
+      1174,
+      665
+    ],
+    "content": "(कद"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      526,
+      638,
+      641,
+      684
+    ],
+    "content": "/ वर्ष)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1079,
+      676,
+      1227,
+      721
+    ],
+    "content": "(से.मी.))"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      647,
+      744,
+      698,
+      775
+    ],
+    "content": "3"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1392,
+      744,
+      1445,
+      775
+    ],
+    "content": "6"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      415,
+      745,
+      467,
+      775
+    ],
+    "content": "2"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      922,
+      745,
+      976,
+      775
+    ],
+    "content": "4"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1140,
+      745,
+      1191,
+      775
+    ],
+    "content": "5"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1921,
+      745,
+      1973,
+      775
+    ],
+    "content": "7"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      337,
+      819,
+      442,
+      850
+    ],
+    "content": "Male"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      530,
+      820,
+      629,
+      851
+    ],
+    "content": "1987"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1583,
+      892,
+      1858,
+      924
+    ],
+    "content": "Is Proxitted: Yes"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      175,
+      969,
+      580,
+      1001
+    ],
+    "content": "Deformities / Peculiarities"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1714,
+      969,
+      2208,
+      1018
+    ],
+    "content": "Habit(s)(3@¢a) Dress Habit (s)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      624,
+      971,
+      824,
+      1018
+    ],
+    "content": "Teeth (दाँत)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1324,
+      971,
+      1508,
+      1018
+    ],
+    "content": "Eye (आँखें)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      892,
+      978,
+      1080,
+      1018
+    ],
+    "content": "Hair (बाल)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      175,
+      1008,
+      548,
+      1057
+    ],
+    "content": "(विकृतियाँ / विशिष्टताएँ)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1960,
+      1015,
+      2117,
+      1055
+    ],
+    "content": "(पहनावा)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      2104,
+      1078,
+      2168,
+      1109
+    ],
+    "content": "13"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      384,
+      1079,
+      435,
+      1109
+    ],
+    "content": "8"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      742,
+      1079,
+      794,
+      1110
+    ],
+    "content": "9"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1086,
+      1079,
+      1152,
+      1109
+    ],
+    "content": "10"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1497,
+      1079,
+      1560,
+      1109
+    ],
+    "content": "11"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1815,
+      1079,
+      1881,
+      1109
+    ],
+    "content": "12"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      175,
+      1293,
+      460,
+      1331
+    ],
+    "content": "Language/Dialect"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1034,
+      1303,
+      1348,
+      1343
+    ],
+    "content": "Place of (का स्थान)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1852,
+      1303,
+      2084,
+      1343
+    ],
+    "content": "Others (अन्य)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      175,
+      1334,
+      368,
+      1379
+    ],
+    "content": "(भाषा/बोली)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      767,
+      1403,
+      982,
+      1435
+    ],
+    "content": "Leucoderma"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      493,
+      1407,
+      766,
+      1452
+    ],
+    "content": "Burn Mark (जले"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1549,
+      1407,
+      1861,
+      1456
+    ],
+    "content": "Tattoo (गूदे हुए का)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1046,
+      1412,
+      1262,
+      1452
+    ],
+    "content": "Mole (मस्सा)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1296,
+      1412,
+      1479,
+      1452
+    ],
+    "content": "Scar (घाव)"
+  },
+  {
+    "type": "text_block",
+    "bbox": [
+      767,
+      1443,
+      1009,
+      1493
+    ],
+    "content": "(लुकोदेर्मा(सफ़ेद"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      492,
+      1463,
+      736,
+      1512
+    ],
+    "content": "हुए का निशान)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      766,
+      1500,
+      885,
+      1545
+    ],
+    "content": "धब्बे))"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      885,
+      1569,
+      951,
+      1600
+    ],
+    "content": "16"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      313,
+      1570,
+      379,
+      1600
+    ],
+    "content": "14"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      609,
+      1570,
+      673,
+      1600
+    ],
+    "content": "15"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1148,
+      1570,
+      1214,
+      1600
+    ],
+    "content": "17"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1400,
+      1570,
+      1466,
+      1600
+    ],
+    "content": "18"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1679,
+      1570,
+      1745,
+      1601
+    ],
+    "content": "19"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      2047,
+      1570,
+      2115,
+      1600
+    ],
+    "content": "20"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      174,
+      1727,
+      1903,
+      1765
+    ],
+    "content": "These fields will be entered only if complainant/informant gives any one or more particulars about the suspect/accused."
+  },
+  {
+    "type": "text_block",
+    "bbox": [
+      175,
+      1766,
+      2101,
+      1817
+    ],
+    "content": "(यह क्षेत्र तभी दर्ज किए जाएंगे यदि शिकायतकर्ता / सूचनाकर्ता संदिग्ध / अभियुक्त के बारे में कोई एक या उससे अधिक जानकारी देता है)"
+  },
+  {
+    "type": "heading",
+    "bbox": [
+      1174,
+      3375,
+      1228,
+      3405
+    ],
+    "content": "4"
+  }
+]

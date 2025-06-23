@@ -12,12 +12,12 @@ import glob
 custom_config = r'-l eng+hin --oem 1 --psm 6'
 
 # ─── INPUT & OUTPUT ────────────────────────────────────────────────────────────
-input_dir  = "/Users/Agriya/Desktop/ocrtesting/data/intermediate/fir2016/"
-output_dir = "/Users/Agriya/Desktop/ocrtesting/output/2016"
+input_dir  = "/Users/Agriya/Desktop/ocrtesting/data/intermediate/property/"
+output_dir = "/Users/Agriya/Desktop/ocrtesting/output/property"
 os.makedirs(output_dir, exist_ok=True)
 
 # single output file
-output_file = os.path.join(output_dir, "fir2016_full_output.txt")
+output_file = os.path.join(output_dir, "property_demo_full_output.txt")
 
 # ─── PAGE-BREAK DELIMITER ─────────────────────────────────────────────────────
 delimiter = (

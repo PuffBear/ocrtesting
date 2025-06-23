@@ -1,4 +1,4 @@
-def convert_pdf_to_images(input_path, dpi=300, output_folder="data/intermediate/fir2016/"):
+def convert_pdf_to_images(input_path, dpi=300, output_folder="data/intermediate/property/"):
     import os
     from pdf2image import convert_from_path
 
